@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50b3fac0-28b1-41b7-a11a-a9d0eecbd5a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itheima_spring_ioc/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/main/java/com/itheima/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/main/java/com/itheima/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/test/java/com/itheima/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java02/src/test/java/com/itheima/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/src/main/java/com/itheima/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/src/main/java/com/itheima/pojo/comitheima/MyBatisDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/target/classes/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/target/classes/com/itheima/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/target/classes/com/itheima/pojo/comitheima/MyBatisDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_demo/target/classes/org/example/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/AppForAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/config/Springconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web01/target/tomcat/logs/access_log.2022-07-13" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BsscIGOOcUvOzNm6N7l0M9p2lJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50b3fac0-28b1-41b7-a11a-a9d0eecbd5a4" name="Changes" comment="" />
+      <created>1657706206285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657706206285</updated>
+      <workItem from="1657706208256" duration="1268000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
