@@ -1,0 +1,344 @@
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+<> 2022-07-14T181948.200.txt
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+<> 2022-07-14T181946.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+<> 2022-07-14T181532.200.txt
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T181528.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+<> 2022-07-14T181523.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+id=999&value=content
+
+<> 2022-07-14T181410.200.txt
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T181351.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+id=999&value=content
+
+<> 2022-07-14T181349.200.txt
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T181346.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+id=999&value=content
+
+<> 2022-07-14T181327.200.txt
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T181006.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T180929.200.txt
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T180919.200.txt
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T180651.200.txt
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T174655.200.txt
+
+###
+
+POST http://localhost:8080/urlencoded
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T174627.200.txt
+
+###
+
+POST http://localhost:8080/urlencoded
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T172000.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T171930.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T171842.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T171829.200.txt
+
+###
+
+POST https://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+###
+
+POST https://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+###
+
+POST https://httpbin.org/post
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T171628.200.json
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T171346.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T171131.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T171123.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T171107.200.txt
+
+###
+
+POST http://localhost:8080/urlencoded
+Content-Type: application/x-www-form-urlencoded
+
+id=999&value=content
+
+<> 2022-07-14T170201.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T165901.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T165748.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+<> 2022-07-14T165237.200.txt
+
+###
+

@@ -1,33 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssmcom:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="825168d1-33ef-41f2-a8a0-71062ee67bc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_annotation/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="90b75c89-3287-4b90-8efc-bb9eb4a73be5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssmcom_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssmcom_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fd/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fd/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fd/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fd/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fd/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/springmvc-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fd/MyBatisSpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssmcom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fd/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/spring-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/com/fd/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/com/fd/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/com/fd/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/com/fd/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/com/fd/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/config/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mapper-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/classes/spring/springmvc-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.22.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssmcom-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.fd.MyBatisSpringTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.fd.MyBatisSpringTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/fd/MyBatisSpringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Bsx3D1JYNPySVMuWz8N4KM5iOS" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.6-bin/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BvJGdtV7zPOT0YDNDpJ1qM8KVB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -37,22 +150,167 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/workspace/ssm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "5deff21eecefea0389a0e58313da976d"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\s1\ssmcom\src\main\resources\spring" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\s1\ssmcom" />
+      <recent name="D:\workspace\s1\ssmcom\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.64">
+    <configuration name="app | Send POST request with json body" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/app.http" requestIdentifier="Send POST request with json body" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="app2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/app2.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="app2 | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/app2.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="MyBatisSpringTest.testSpringMyBatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssmcom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fd" />
+      <option name="MAIN_CLASS_NAME" value="com.fd.MyBatisSpringTest" />
+      <option name="METHOD_NAME" value="testSpringMyBatis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.64" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ssmcom:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e80dcb9f-7763-4ef3-b445-6c1383452878" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60313" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssmcom:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.app | Send POST request with json body" />
+      <item itemvalue="HTTP Request.app2 | #1" />
+      <item itemvalue="HTTP Request.app2 | #2" />
+      <item itemvalue="JUnit.MyBatisSpringTest.testSpringMyBatis" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.64" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.app2 | #2" />
+        <item itemvalue="HTTP Request.app2 | #1" />
+        <item itemvalue="HTTP Request.app | Send POST request with json body" />
+        <item itemvalue="JUnit.MyBatisSpringTest.testSpringMyBatis" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="825168d1-33ef-41f2-a8a0-71062ee67bc2" name="Changes" comment="" />
-      <created>1657708393951</created>
+      <changelist id="90b75c89-3287-4b90-8efc-bb9eb4a73be5" name="Changes" comment="" />
+      <created>1657780531018</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657708393951</updated>
-      <workItem from="1657708395570" duration="621000" />
+      <updated>1657780531018</updated>
+      <workItem from="1657780532245" duration="14152000" />
     </task>
     <servers />
   </component>
@@ -69,8 +327,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
