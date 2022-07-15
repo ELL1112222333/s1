@@ -40,10 +40,9 @@ public class IndexController {
 
     @RequestMapping("/user")
     @ResponseBody
-    public String getUser(@RequestBody Long id) throws Exception{
+    public String getUser(@RequestBody String id) throws Exception{
         final User user = userService.getUser(id);
-
-        return "中文"+user.toString();
+        return user.toString();
     }
 
 

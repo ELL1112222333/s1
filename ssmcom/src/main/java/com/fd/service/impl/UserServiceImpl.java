@@ -12,7 +12,7 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     @Override
-    public User getUser(Long id) {
+    public User getUser(String id) {
         final User user = userMapper.getUser(id);
         //System.out.println(user.toString());
         return user;

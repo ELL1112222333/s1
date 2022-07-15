@@ -1,3 +1,81 @@
+POST http://localhost:8080/user
+Content-Type: application/user
+
+{
+  "id": "1"
+}
+
+<> 2022-07-15T175309.500.html
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/user
+
+{
+  "id": "1"
+}
+
+<> 2022-07-15T175055.500.html
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/user
+
+{
+  "id": "1"
+}
+
+<> 2022-07-15T175036.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+{
+  "id": "1"
+}
+
+<> 2022-07-15T175026.200.txt
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+{:
+  "id": “1”
+}:
+
+<> 2022-07-15T175010.400.html
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+{:
+  "id": 1
+}:
+
+<> 2022-07-15T174927.400.html
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+<> 2022-07-15T174747.400.html
+
+###
+
+POST http://localhost:8080/hello
+Content-Type: application/json
+
+<> 2022-07-15T174744.200.txt
+
+###
+
 POST http://localhost:8080/hello
 Content-Type: application/json
 

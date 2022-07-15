@@ -2,6 +2,7 @@ package com.fd.mapper;
 
 
 import com.fd.entity.User;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
@@ -12,4 +13,7 @@ public interface UserMapper {
     //List<User> getUser();
     @Select("select * from tb_user where id = #{userId}")
     User getUser(@Param("userId")String userid);
+
+    @Insert("insert into tb_user(name,money)values(#{name},#{money})")
+    void save(User user);
 }
