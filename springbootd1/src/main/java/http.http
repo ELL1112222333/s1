@@ -1,0 +1,12 @@
+POST http://localhost:10005/register
+Content-Type: application/json
+
+{
+  "username": "b",
+  "phone": "22",
+  "password": "2"
+}
+
+###
+POST http://localhost:10005/login?phone=11&password=1
+Content-Type: application/json

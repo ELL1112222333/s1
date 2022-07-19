@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>springbootd1</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>springbootd1</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.3.8.RELEASE</version>
+    <relativePath/>
+  </parent>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <!-- mybatis plus 代码生成器 -->
+    <dependency>
+      <groupId>com.baomidou</groupId>
+      <artifactId>mybatis-plus-boot-starter</artifactId>
+      <version>3.2.0</version>
+    </dependency>
+
+    <!--thymeleaf-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+  </dependencies>
+
+<!--环境-->
+  <profiles>
+
+    <profile>
+      <id>dev</id>
+      <properties>
+        <profiles.active>dev</profiles.active>
+        <serverport>10005</serverport>
+<!--        <nacos.namespace>214fb80b-f18f-4477-af29-62df76320cc9</nacos.namespace>-->
+<!--        <package.path>C:\linux\dev</package.path>-->
+<!--        <package.nacos.url>http://172.31.27.91/nacos</package.nacos.url>-->
+      </properties>
+      <activation>
+        <!-- 默认环境 -->
+        <activeByDefault>true</activeByDefault>
+      </activation>
+    </profile>
+    <profile>
+      <id>pro</id>
+      <properties>
+        <profiles.active>pro</profiles.active>
+        <serverport>10006</serverport>
+<!--        <nacos.namespace>a29c54ae-3f7b-4944-aa27-d44fffac1e0d</nacos.namespace>-->
+<!--        <package.path>C:\linux\pro</package.path>-->
+<!--        <package.nacos.url>http://172.31.27.91/nacos</package.nacos.url>-->
+      </properties>
+    </profile>
+
+    <profile>
+      <id>local</id>
+      <properties>
+        <profiles.active>local</profiles.active>
+        <serverport>10007</serverport>
+<!--        <nacos.namespace>f8033a8c-7384-4095-aaa0-77256af84359</nacos.namespace>-->
+<!--        <package.path>C:\linux\local</package.path>-->
+<!--        <package.nacos.url>http://47.105.166.149/nacos</package.nacos.url>-->
+      </properties>
+    </profile>
+  </profiles>
+</project>

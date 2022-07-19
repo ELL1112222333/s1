@@ -1,0 +1,48 @@
+server:
+  port: 10005
+
+#  这啥
+#  servlet:
+#    context-path: /ems
+#
+
+spring:
+#  profiles:
+#    active: dev
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mybatis?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false
+  #  配置aop
+  aop:
+    auto: true
+    proxy-target-class: true
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:/ehcache.xml
+#默认无法直接访问templates下的页面, 需要设置emmmm
+#  resources:
+#    static-locations: classpath:/templates/, classpath:/static/
+
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+  global-config:
+    # 逻辑删除配置
+    db-config:
+      # 删除前
+      logic-not-delete-value: 1
+      # 删除后
+      logic-delete-value: 0
