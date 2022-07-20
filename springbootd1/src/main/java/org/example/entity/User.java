@@ -29,6 +29,6 @@ public class User {
     private String username;
     private String password;
     private Long phone;
-    private String status;
+    private Integer status;
     private String authority;
 }

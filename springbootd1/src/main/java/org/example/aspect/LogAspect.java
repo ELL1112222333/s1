@@ -2,12 +2,14 @@ package org.example.aspect;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.example.aopannotation.Action;
+import org.example.utils.Result;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
@@ -21,18 +23,30 @@ public class LogAspect {
 
     @Before("annotationPoinCut()")
     //@After("annotationPoinCut()")
-    public void after(JoinPoint joinPoint){
+    public void before(JoinPoint joinPoint) {
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         Method method = signature.getMethod();
         Action action = method.getAnnotation(Action.class);
-        System.out.println("注解式拦截 "+action.aopname());
+        log.info("注解式拦截 "+action.aopname());
+        //System.out.println("注解式拦截 "+action.aopname());
+
+//        Object result = joinPoint.proceed();
+//        Result resp = (Result) result;
+
+//        try {
+//            //实现保存日志逻辑
+//            log.info();
+//        } catch (Exception e) {
+//            log.error("日志记录失败 {}", e.getMessage());
+//        }
+//        return result;
     }
 
-    @Before("execution(* org.example.service.DemoMethodService.*(..))")
+    /*@Before("execution(* org.example.service.DemoMethodService.*(..))")
     public void before(JoinPoint joinPoint){
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         Method method = signature.getMethod();
         System.out.println("方法规则式拦截,"+method.getName());
-    }
+    }*/
 
 }
