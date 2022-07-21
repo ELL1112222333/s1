@@ -9,12 +9,13 @@ import org.example.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.UUID;
 
 //还没用到
 @Service
 public class UserServiceImpl implements UserService {
-    @Autowired
+    @Resource
     private UserMapper userMapper;
 /*
     @Override
@@ -29,18 +30,16 @@ public class UserServiceImpl implements UserService {
         return entityVo;
     }*/
 
-    @Action(aopname = "登录操作")
+    //@Action(aopname = "登录操作")
     @Override
     public User loginService(Long phone, String password) {
         //selectone
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("phone",phone).eq("password",password);
-        User user=userMapper.selectOne(queryWrapper);
-
-        return user;
+        return userMapper.selectOne(queryWrapper);
     }
 
-    @Action(aopname = "注册操作")
+    //@Action(aopname = "注册操作")
     @Override
     public User registService(User newuser) {
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
@@ -65,4 +64,14 @@ public class UserServiceImpl implements UserService {
     public User selectToken(String token) {
         return userMapper.selectToken(token);
     }
+
+    //@Action(aopname = "修改姓名")
+    @Override
+    public User modifyName(User user,String newname) {
+        user.setUsername(newname);
+        userMapper.updateById(user);
+        return user;
+    }
+
+
 }

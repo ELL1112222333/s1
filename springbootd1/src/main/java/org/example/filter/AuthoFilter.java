@@ -30,6 +30,15 @@ public class AuthoFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
+        //特定路径
+        String uri=request.getRequestURI();
+        if(uri.contains("/open"))
+        {
+            filterChain.doFilter(servletRequest, servletResponse);
+            log.info("直接放行");
+            return;
+        }
+        //token
         String token = request.getHeader("Authorization");
         log.info("token = {}",token);
         if(StringUtils.hasLength(token)){
@@ -39,9 +48,10 @@ public class AuthoFilter implements Filter {
                 ThreadLocalCache.set(user);
                 //放行
                 filterChain.doFilter(servletRequest, servletResponse);
+                log.info("token认证成功，放行");
             }
         }
-        throw new RuntimeException("认证失败");
+        else throw new RuntimeException("认证失败");
 
     }
 

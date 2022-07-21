@@ -1,6 +1,7 @@
 package org.example.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.example.aopannotation.Action;
 import org.example.entity.User;
 import org.example.service.UserService;
 import org.example.utils.Result;
@@ -32,6 +33,7 @@ public class IndexController {
     @Autowired
     private UserService userService;
 
+    @Action(aopname = "登录操作")
     @PostMapping("/login")
     public Result<User> loginController(@RequestParam Long phone, @RequestParam String password){
         User user = userService.loginService(phone, password);
@@ -43,7 +45,9 @@ public class IndexController {
     }
 
 
+    @Action(aopname = "注册操作")
     @PostMapping("/register")
+    //@GetMapping("/register")
     public Result<User> registController(@RequestBody User newUser){
         User user = userService.registService(newUser);
         if(user!=null){

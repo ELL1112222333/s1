@@ -19,4 +19,6 @@ public interface UserService {
     User registService(User user);
 
     User selectToken(String token);
+
+    User modifyName(User user, String newname);
 }
