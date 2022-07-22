@@ -34,7 +34,8 @@ public class IndexController {
     private UserService userService;
 
     @Action(aopname = "登录操作")
-    @PostMapping("/login")
+    //@PostMapping("/login")
+    @RequestMapping ("/login")
     public Result<User> loginController(@RequestParam Long phone, @RequestParam String password){
         User user = userService.loginService(phone, password);
         if(user!=null){

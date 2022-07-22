@@ -5,16 +5,58 @@ import lombok.Data;
 
 @Data
 public class WebLog {
+    /**
+     * 操作描述
+     */
     private String description;
+
+    /**
+     * 操作用户
+     */
     private String username;
-    private Long startTime;
-    private Integer spendTime;
-    //private String basePath;
+
+    /**
+     * 操作时间
+     */
+    private String time;
+
+    /**
+     * 消耗时间
+     */
+    private String spendTime;
+
+    /**
+     * 根路径
+     */
+    private String basePath;
+
+    /**
+     * URI
+     */
     private String uri;
+
+    /**
+     * URL
+     */
     private String url;
+
+    /**
+     * 请求类型
+     */
     private String method;
+
+    /**
+     * IP地址
+     */
     private String ip;
+
+    /**
+     * 请求参数
+     */
     private Object parameter;
+
+    /**
+     * 请求返回的结果
+     */
     private Object result;
-    //省略了getter,setter方法
 }

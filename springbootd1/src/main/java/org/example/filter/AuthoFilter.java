@@ -32,12 +32,8 @@ public class AuthoFilter implements Filter {
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         //特定路径
         String uri=request.getRequestURI();
-        if(uri.contains("/open"))
-        {
-            filterChain.doFilter(servletRequest, servletResponse);
-            log.info("直接放行");
-            return;
-        }
+
+        if(uri.contains("/user")){
         //token
         String token = request.getHeader("Authorization");
         log.info("token = {}",token);
@@ -52,7 +48,13 @@ public class AuthoFilter implements Filter {
             }
         }
         else throw new RuntimeException("认证失败");
-
+        }
+        else
+        {
+            filterChain.doFilter(servletRequest, servletResponse);
+            log.info("直接放行");
+            //return;
+        }
     }
 
     @Override
